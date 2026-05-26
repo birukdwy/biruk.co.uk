@@ -1,0 +1,8 @@
+# Brainstorming visual companion scratch space
+.superpowers/
+
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
