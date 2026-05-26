@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biruk Dawit — Software Engineer</title>
+  <meta name="description" content="Biruk Dawit — software engineer. Builder of software, from backend systems to the browser." />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Biruk Dawit — Software Engineer" />
+  <meta property="og:description" content="Builder of software, from backend systems to the browser." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://biruk.co.uk" />
+
+  <!-- Font: JetBrains Mono (only external dependency) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="wrap">
+      <a class="nav-brand" href="#top"><span class="prompt">$</span> biruk</a>
+      <div class="nav-links">
+        <a href="#about">about</a>
+        <a href="#experience">experience</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="wrap">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot r"></span>
+            <span class="dot y"></span>
+            <span class="dot g"></span>
+            <span class="terminal-title">biruk@web: ~</span>
+          </div>
+          <div class="terminal-body">
+            <p class="cmd"><span class="prompt">$</span> whoami</p>
+            <h1>Biruk Dawit</h1>
+            <p class="role"><span class="prompt">&gt;</span> Software Engineer</p>
+            <p class="tagline">Builder of software — from backend systems to the browser.<span class="cursor" aria-hidden="true">&nbsp;</span></p>
+            <a class="cta" href="mailto:hello@biruk.co.uk"><span class="prompt">$</span> ./say-hello</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <div class="wrap">
+        <p class="section-label">about</p>
+        <h2>A bit about me</h2>
+        <!-- TODO(biruk): tweak this copy to your taste -->
+        <p>
+          I'm a software engineer who likes building things end to end — reliable
+          backend services, the cloud they run on, and the interfaces people
+          actually use. I care about clean, maintainable code and shipping work
+          that holds up in production. I'm currently at Syndigo (formerly
+          Taggstar), and previously built systems at Barclays.
+        </p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <div class="wrap">
+        <p class="section-label">experience</p>
+        <h2>Where I've worked</h2>
+        <!-- TODO(biruk): add dates/details to each role if you'd like -->
+        <div class="timeline">
+          <div class="job current">
+            <div class="job-head">
+              <span class="job-company">Syndigo</span>
+              <span class="badge">Current</span>
+            </div>
+            <p class="job-title">Software Engineer</p>
+            <p class="job-desc">Formerly Taggstar — building and scaling product software.</p>
+          </div>
+          <div class="job">
+            <div class="job-head">
+              <span class="job-company">Barclays</span>
+            </div>
+            <p class="job-title">Software Engineer</p>
+            <p class="job-desc">Developed software within a large financial-services environment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="wrap">
+        <p class="section-label">skills</p>
+        <h2>What I work with</h2>
+        <div class="skills">
+          <div class="skill-group">
+            <p class="skill-group-label">Languages</p>
+            <div class="tags">
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Frontend</p>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Cloud &amp; Infra</p>
+            <div class="tags">
+              <span class="tag">AWS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="wrap">
+        <p class="section-label">projects</p>
+        <h2>Selected work</h2>
+        <!-- TODO(biruk): replace these placeholders with real projects.
+             Copy a .card block, set the title, description, and a link. -->
+        <div class="cards">
+          <div class="card">
+            <h3>Project one</h3>
+            <p>A short description of something you built and the impact it had.</p>
+            <span class="soon">Coming soon</span>
+          </div>
+          <div class="card">
+            <h3>Project two</h3>
+            <p>Another project — what it does and which tech it uses.</p>
+            <span class="soon">Coming soon</span>
+          </div>
+          <div class="card">
+            <h3>Project three</h3>
+            <p>One more highlight to round out the portfolio.</p>
+            <span class="soon">Coming soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <p class="section-label">contact</p>
+        <h2>Get in touch</h2>
+        <p>Happy to talk about engineering, collaboration, or anything interesting. Drop me a line:</p>
+        <a class="email" href="mailto:hello@biruk.co.uk">hello@biruk.co.uk</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="prompt">$</span> &copy; <span id="year">2026</span> Biruk Dawit
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
