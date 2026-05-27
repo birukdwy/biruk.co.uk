@@ -20,12 +20,11 @@ python3 -m http.server 8000
 
 ## Edit
 
-All content lives in `index.html`. Look for `TODO(biruk)` comments marking the
-spots most worth personalising:
+All content lives in `index.html`. The About, Experience, Skills and Projects
+sections are filled in. One `TODO(biruk)` remains:
 
-- **About** copy
-- **Experience** dates/details
-- **Projects** — replace the placeholder cards with real work
+- **Contact** — swap the placeholder LinkedIn URL (`linkedin.com/in/REPLACE-ME`)
+  for your real profile.
 
 Styling is in `styles.css` (CSS variables for the colour palette live at the
 top under `:root`).

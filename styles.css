@@ -182,6 +182,7 @@ h2 {
   border-radius: 20px;
   padding: 2px 9px;
 }
+.job-date { color: var(--muted); font-size: 0.8rem; margin-left: auto; }
 .job-title { color: var(--blue); margin: 2px 0; }
 .job-desc { color: var(--muted); margin: 4px 0 0; font-size: 0.95rem; }
 
@@ -233,6 +234,9 @@ h2 {
   font-weight: 700;
   color: var(--green);
 }
+.contact-links { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 20px; }
+.contact-links a { color: var(--blue); font-size: 0.95rem; }
+.contact-links a::before { content: "$ "; color: var(--green); }
 
 /* Footer ----------------------------------------------------- */
 

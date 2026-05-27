@@ -65,13 +65,10 @@
       <div class="wrap">
         <p class="section-label">about</p>
         <h2>A bit about me</h2>
-        <!-- TODO(biruk): tweak this copy to your taste -->
         <p>
-          I'm a software engineer who likes building things end to end — reliable
-          backend services, the cloud they run on, and the interfaces people
-          actually use. I care about clean, maintainable code and shipping work
-          that holds up in production. I'm currently at Syndigo (formerly
-          Taggstar), and previously built systems at Barclays.
+          I build software end-to-end. Lately I manage analytics systems
+          at Taggstar (powered by Syndigo); previously at Barclays.
+          I also run, dance and climb.
         </p>
       </div>
     </section>
@@ -81,22 +78,27 @@
       <div class="wrap">
         <p class="section-label">experience</p>
         <h2>Where I've worked</h2>
-        <!-- TODO(biruk): add dates/details to each role if you'd like -->
         <div class="timeline">
           <div class="job current">
             <div class="job-head">
-              <span class="job-company">Syndigo</span>
+              <span class="job-company">Taggstar (powered by Syndigo)</span>
               <span class="badge">Current</span>
+              <span class="job-date">Oct 2020 – Present</span>
             </div>
             <p class="job-title">Software Engineer</p>
-            <p class="job-desc">Formerly Taggstar — building and scaling product software.</p>
+            <p class="job-desc">
+              Build and maintain the backends behind customer- and admin-facing dashboards,
+              internal data/config tooling, and reporting services — all backed by end-to-end tests.
+              Recent work leans into LLM-powered products.
+            </p>
           </div>
           <div class="job">
             <div class="job-head">
               <span class="job-company">Barclays</span>
+              <span class="job-date">Jul 2016 – Sep 2020</span>
             </div>
             <p class="job-title">Software Engineer</p>
-            <p class="job-desc">Developed software within a large financial-services environment.</p>
+            <p class="job-desc">Worked on a highly distributed risk-analytics platform, focused on its testing framework.</p>
           </div>
         </div>
       </div>
@@ -113,6 +115,8 @@
             <div class="tags">
               <span class="tag">Java</span>
               <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Bash</span>
             </div>
           </div>
           <div class="skill-group">
@@ -124,9 +128,25 @@
             </div>
           </div>
           <div class="skill-group">
+            <p class="skill-group-label">Data &amp; AI</p>
+            <div class="tags">
+              <span class="tag">DuckDB</span>
+              <span class="tag">Athena</span>
+              <span class="tag">LLM integration</span>
+            </div>
+          </div>
+          <div class="skill-group">
             <p class="skill-group-label">Cloud &amp; Infra</p>
             <div class="tags">
               <span class="tag">AWS</span>
+              <span class="tag">Linux</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Practices</p>
+            <div class="tags">
+              <span class="tag">End-to-end testing</span>
+              <span class="tag">Automation</span>
             </div>
           </div>
         </div>
@@ -138,23 +158,30 @@
       <div class="wrap">
         <p class="section-label">projects</p>
         <h2>Selected work</h2>
-        <!-- TODO(biruk): replace these placeholders with real projects.
-             Copy a .card block, set the title, description, and a link. -->
         <div class="cards">
           <div class="card">
-            <h3>Project one</h3>
-            <p>A short description of something you built and the impact it had.</p>
-            <span class="soon">Coming soon</span>
+            <h3>Natural-language config queries</h3>
+            <p>Athena-style SQL over JSON configuration with DuckDB, topped with an LLM layer so you can ask questions in plain English.</p>
           </div>
           <div class="card">
-            <h3>Project two</h3>
-            <p>Another project — what it does and which tech it uses.</p>
-            <span class="soon">Coming soon</span>
+            <h3>LLM knowledge wiki</h3>
+            <p>An internal wiki wired to an LLM (Hermes), Karpathy-style — ask a question, get an answer grounded in the team's own docs.</p>
           </div>
           <div class="card">
-            <h3>Project three</h3>
-            <p>One more highlight to round out the portfolio.</p>
-            <span class="soon">Coming soon</span>
+            <h3>Dashboard backend</h3>
+            <p>The service powering customer- and admin-facing dashboards, with a full end-to-end test suite keeping it honest.</p>
+          </div>
+          <div class="card">
+            <h3>Reproducible Mac setup</h3>
+            <p>A scripted, deliberate laptop rebuild: a minimal core bundle, opt-in add-ons, bootstrap + verify scripts, and clean personal/work identity separation.</p>
+          </div>
+          <div class="card">
+            <h3>Linux From Scratch</h3>
+            <p>Built a working Linux system from source — toolchain and userland compiled by hand — to demystify what sits under the shell.</p>
+          </div>
+          <div class="card">
+            <h3>Risk-analytics test framework</h3>
+            <p>At Barclays, built the testing framework for a highly distributed risk-analytics platform.</p>
           </div>
         </div>
       </div>
@@ -167,6 +194,11 @@
         <h2>Get in touch</h2>
         <p>Happy to talk about engineering, collaboration, or anything interesting. Drop me a line:</p>
         <a class="email" href="mailto:hello@biruk.co.uk">hello@biruk.co.uk</a>
+        <div class="contact-links">
+          <a href="https://github.com/birukdwy" rel="me">github</a>
+          <!-- TODO(biruk): replace with your real LinkedIn URL -->
+          <a href="https://www.linkedin.com/in/REPLACE-ME" rel="me">linkedin</a>
+        </div>
       </div>
     </section>
 
